@@ -1,0 +1,57 @@
+body {
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/img/login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: "Roboto";
+    
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    color:  #0fc484;
+    margin: 2%;
+}
+
+.butn {
+    box-sizing: border-box;
+    font-weight: 300;
+
+    background-color: #0b9161;
+    border-radius: 0%;
+    margin-top: 100%;
+    border: 2px solid;
+    
+    border-color:rgb(11,145,97);
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 25px;
+    color: white;
+
+}
+
+.butn:hover {
+    color:#0fc484;
+    border: 3px solid;
+    
+    border-color:#0fc484; 
+    background-color: transparent;
+}
+
+.quote {
+    width: fit-content;
+    padding: 2%;
+    color: #0fc484;
+    
+    font-family: "Montserrat";
+    font-weight: 400;
+    
+    border-color:#0fc484; 
+}
+
+h1, h2, h3, h4 ,h5 ,h6 {
+    font-family: "Montserrat";
+    font-weight: 700;
+}
